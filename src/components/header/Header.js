@@ -5,21 +5,21 @@ const Header = () => {
             <header className="header">
                 <div className="header__container _container">
                     <a href="#" className="header__logo">
-                        Relvise
+                        GMB
                     </a>
                     <nav className="header__menu menu">
                         <ul className="menu__list">
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Home</a>
+                                <a href="#" className="menu__link">Домой</a>
                             </li>
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Product</a>
+                                <a href="#" className="menu__link">Услуги</a>
                             </li>
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Pricing</a>
+                                <a href="#" className="menu__link">Цены</a>
                             </li>
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Contact</a>
+                                <a href="#" className="menu__link">Контакты</a>
                             </li>
                         </ul>
                     </nav>
