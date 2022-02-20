@@ -1093,3 +1093,9 @@ body {
     text-align: center;
   }
 }
+
+
+/*------------------------*/
+.widget {
+  margin-top: 50px;
+}

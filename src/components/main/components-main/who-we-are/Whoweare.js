@@ -1,10 +1,11 @@
 import React from 'react';
 import Peoples from './img/icons/01.svg';
-import Percent from './img/icons/02.svg'
+import Percent from './img/icons/02.svg';
+import BitCurrency from "./BitCurrency";
 
 const Whoweare = () => {
     return (
-        <section className="page__whoweare whoweare">
+        <section className="page__whoweare whoweare" id="sec2">
             <div className="whoweare__container _container">
                 <div className="whoweare__header header-block">
                     <h2 className="header-block__title">Почему мы тут?</h2>
@@ -57,6 +58,7 @@ const Whoweare = () => {
                         </div>
                     </div>
                 </div>
+                <BitCurrency/>
             </div>
         </section>
     );

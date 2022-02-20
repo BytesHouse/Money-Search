@@ -2,6 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/src/components/main/components-main/subscribe/Subscribe.js" libraries="{babel-standalone, react, react-dom}" />
-    <file url="PROJECT" libraries="{v1}" />
+    <file url="PROJECT" libraries="{coingecko-coin-list-widget, emailjs-com, v1}" />
   </component>
 </project>

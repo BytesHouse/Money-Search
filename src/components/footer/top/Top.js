@@ -86,7 +86,7 @@ const Top = () => {
                                 Washington
                                 Ave.Manchester, Kentucky 39495</a>
                             <a href="mailto:debra.holt@example.com"
-                               className="contacts-footer__item contacts-footer__item_email">debra.holt@example.com</a>
+                               className=" contacts-footer__item_email">debra.holt@example.com</a>
                         </div>
                     </div>
                 </div>

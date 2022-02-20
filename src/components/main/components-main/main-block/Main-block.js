@@ -1,5 +1,7 @@
 import React from 'react';
 import cover from "../../../../img/main-block.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const MainBlock = () => {
     return (
@@ -11,8 +13,8 @@ const MainBlock = () => {
                         Мы поможем найти ваши деньги в интернете.
                     </div>
                     <div className="main-block__buttons">
-                        <a href="" className="main-block__button main-block__button_orange">Начни поиск сейчас</a>
-                        <a href="" className="main-block__button main-block__button_border">Читать дальше</a>
+                        <a href="" className="main-block__button main-block__button_orange"><Link to="sec3" smooth={true}>Начни поиск сейчас</Link></a>
+                        <a href="" className="main-block__button main-block__button_border"><Link to="sec1" smooth={true}>Читать дальше</Link></a>
                     </div>
                 </div>
             </div>

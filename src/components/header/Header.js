@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
     return (
@@ -9,17 +10,19 @@ const Header = () => {
                     </a>
                     <nav className="header__menu menu">
                         <ul className="menu__list">
+
+                            {/*<li className="menu__item">*/}
+                            {/*    <a href="#" className="menu__link"><Link to="sec1">Домой</Link></a>*/}
+                            {/*</li>*/}
+
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Домой</a>
+                                <a href="#" className="menu__link"><Link to="sec1" smooth={true}>Услуги</Link></a>
                             </li>
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Услуги</a>
+                                <a href="#" className="menu__link"><Link to="sec2" smooth={true}>Цены</Link></a>
                             </li>
                             <li className="menu__item">
-                                <a href="#" className="menu__link">Цены</a>
-                            </li>
-                            <li className="menu__item">
-                                <a href="#" className="menu__link">Контакты</a>
+                                <a href="#" className="menu__link"><Link to="sec3" smooth={true}>Контакты</Link></a>
                             </li>
                         </ul>
                     </nav>

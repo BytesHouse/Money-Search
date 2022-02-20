@@ -5,7 +5,7 @@ import Consalting from "./img/03.svg";
 
 const Services = () => {
     return (
-        <section className="page__services services">
+        <section className="page__services services" id="sec1">
             <div className="services__container _container">
                 <div className="services__body">
                     <div className="services__column">
