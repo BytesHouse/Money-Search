@@ -13,8 +13,8 @@ const MainBlock = () => {
                         Мы поможем найти ваши деньги в интернете.
                     </div>
                     <div className="main-block__buttons">
-                        <a href="#" className="main-block__button main-block__button_orange"><Link to="sec3" smooth={true}>Начни поиск сейчас</Link></a>
-                        <a href="#" className="main-block__button main-block__button_border"><Link to="sec1" smooth={true}>Читать дальше</Link></a>
+                        <Link to="sec3" smooth={true}><a href="#" className="main-block__button main-block__button_orange">Начни поиск сейчас</a></Link>
+                        <Link to="sec1" smooth={true}><a href="#" className="main-block__button main-block__button_border">Читать дальше</a></Link>
                     </div>
                 </div>
             </div>
