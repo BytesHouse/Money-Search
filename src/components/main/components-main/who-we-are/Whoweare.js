@@ -36,7 +36,7 @@ const Whoweare = () => {
                                 <div className="item-whoweare__body">
                                     <div className="item-whoweare__title">Предоплата  90$ + НДС
                                     </div>
-                                    <div className="item-whoweare__text">Согласно вашему регион
+                                    <div className="item-whoweare__text">Согласно вашему региону
                                     </div>
                                 </div>
                             </div>
